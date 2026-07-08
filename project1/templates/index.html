@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aroma Café Chatbot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="chat-container">
+    <div class="chat-header">
+      <div class="bot-avatar">☕</div>
+      <div>
+        <h2>Aroma Bot</h2>
+        <p class="status">● Online</p>
+      </div>
+    </div>
+
+    <div class="chat-box" id="chat-box">
+      <div class="message bot-message">
+        Hi there! I'm Aroma Bot 🤖 Ask me about our menu, hours, location, or prices!
+      </div>
+    </div>
+
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off">
+      <button id="send-btn">➤</button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
