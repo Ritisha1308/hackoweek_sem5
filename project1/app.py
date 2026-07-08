@@ -21,11 +21,15 @@ def get_bot_response(message):
     reply_bank = {
         "greeting": ["Hey there! Welcome to Aroma Café ☕ How can I help you today?",
                      "Hello! Great to see you. What can I get started for you?"],
-        "menu": ["We serve Espresso, Latte, Cappuccino, Cold Brew, Croissants, and Muffins!",
-                 "Our menu includes hot & cold coffees, pastries, and sandwiches."],
+        "menu": ["Here's our full menu ☕: Espresso, Americano, Latte, Cappuccino, Mocha, Cold Brew, "
+                 "Caramel Macchiato, Hot Chocolate, Iced Tea, Croissants, Muffins, Bagels, Donuts, "
+                 "Brownies, and Club Sandwiches!",
+                 "We serve a wide range: Espresso, Latte, Cappuccino, Cold Brew, Mocha, Iced Coffee, "
+                 "along with Croissants, Muffins, Donuts, Brownies, and Sandwiches."],
         "hours": ["We're open every day from 8 AM to 9 PM!"],
         "location": ["We're located at 123 Bean Street, Coffee Town."],
-        "price": ["Our coffees range from $2.5 to $5.5 depending on the size and type."],
+        "price": ["Our coffees range from $2.5 to $5.5 (₹210 to ₹460) depending on the size and type. "
+                   "Pastries and snacks range from $2 to $4 (₹165 to ₹330)."],
         "order": ["You can place an order by visiting us or calling +1-234-567-890!"],
         "thanks": ["You're most welcome! 😊", "Anytime! Enjoy your day."],
         "bye": ["Goodbye! Hope to see you again soon ☕", "Take care! Come back anytime."],
